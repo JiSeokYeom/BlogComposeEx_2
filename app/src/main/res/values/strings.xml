@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">composeEx</string>
+    <string name="sample_text">이것은 하이퍼링크 텍스트 테스트 입니다.\nhttps://www.naver.com 네이버 링크 http://www.naver.com 그냥 http 링크\n www.naver.com www만 있는 링크\n naver.com www도 없는 링크\n 문자열 사이에 있는 https://www.naver.com 링크</string>
+</resources>
