@@ -30,5 +30,11 @@ fun MainScreen(
         }) {
             Text(text = "하이퍼링크 Ex")
         }
+        Spacer(modifier = Modifier.height(20.dp))
+        Button(onClick = {
+            navController.navigate("animationEx")
+        }) {
+            Text(text = "애니메이션 Ex")
+        }
     }
 }

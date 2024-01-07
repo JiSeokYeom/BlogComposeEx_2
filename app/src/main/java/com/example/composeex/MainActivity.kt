@@ -24,6 +24,7 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.composeex.animation.AnimationEx
 import com.example.composeex.hyperlink.HyperLinkEx
 import com.example.composeex.lazycolumn.LazyColumnEx
 import com.example.composeex.lazycolumn.UserDataScreen
@@ -50,6 +51,9 @@ class MainActivity : ComponentActivity() {
                     composable("hyperLinkEx") { HyperLinkEx(
                         navController = navController
                     ) }
+                    composable("animationEx") {
+                        AnimationEx(navController = navController)
+                    }
                 }
 
             }
