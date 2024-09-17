@@ -36,5 +36,11 @@ fun MainScreen(
         }) {
             Text(text = "애니메이션 Ex")
         }
+        Spacer(modifier = Modifier.height(20.dp))
+        Button(onClick = {
+            navController.navigate("sideEffectEx")
+        }) {
+            Text(text = "사이드이펙트 Ex")
+        }
     }
 }
