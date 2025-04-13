@@ -58,6 +58,9 @@ class MainActivity : ComponentActivity() {
                     composable("sideEffectEx"){ SideEffectEx(
                         navController = navController
                     ) }
+                    composable("bottomSheetEx") { SideEffectEx(
+                        navController = navController
+                    ) }
                 }
 
             }
