@@ -42,5 +42,17 @@ fun MainScreen(
         }) {
             Text(text = "사이드이펙트 Ex")
         }
+        Spacer(modifier = Modifier.height(20.dp))
+        Button(onClick = {
+            navController.navigate("bottomSheetEx")
+        }) {
+            Text(text = "바텀시트 Ex")
+        }
+        Spacer(modifier = Modifier.height(20.dp))
+        Button(onClick = {
+            navController.navigate("TabRow")
+        }) {
+            Text(text = "탭로우 Ex")
+        }
     }
 }
